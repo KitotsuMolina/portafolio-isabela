@@ -65,16 +65,16 @@ export default {
 <template>
   <div class="container">
     <div class="position-relative d-flex align-items-center justify-content-center">
-      <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Gallery</h1>
-      <h1 class="position-absolute text-uppercase text-primary">My Portfolio</h1>
+      <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Galeria</h1>
+      <h1 class="position-absolute text-uppercase text-primary">Mi Portfolio</h1>
     </div>
     <div class="row">
       <div class="col-12 text-center mb-2">
         <ul class="list-inline mb-4" id="portfolio-flters">
-          <li class="btn btn-sm btn-outline-primary m-1 active"  data-filter="*">All</li>
-          <li class="btn btn-sm btn-outline-primary m-1" data-filter=".design">Design</li>
-          <li class="btn btn-sm btn-outline-primary m-1" data-filter=".visuals">Visuals</li>
-          <li class="btn btn-sm btn-outline-primary m-1" data-filter=".audios">Audios</li>
+          <li class="btn btn-sm btn-outline-primary m-1 active"  data-filter="*">Todo</li>
+          <li class="btn btn-sm btn-outline-primary m-1" data-filter=".writings">Escritos</li>
+          <li class="btn btn-sm btn-outline-primary m-1" data-filter=".photography">Fotograficos</li>
+          <li class="btn btn-sm btn-outline-primary m-1" data-filter=".videos">Videos</li>
         </ul>
       </div>
     </div>
